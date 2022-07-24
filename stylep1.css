@@ -11,18 +11,11 @@
 .overlay-text{ 
     color:white;
     position:absolute;
-    /*display:flex;
-    justify-content: center;
-    flex-direction: column;*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index:10;
-    /*top:30%;
-    margin:5%;*/
-    /*left:0;
-    width:50%;*/
     text-align: center;
   }
 

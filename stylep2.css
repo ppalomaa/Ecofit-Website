@@ -8,5 +8,37 @@
 }
 
 body {
-    background: #EFD2CB;
+    background-color: #EFD2CB;
+}
+
+.introduction{
+    padding-top:30px;
+    font-size:30px;
+    text-align: center;
+    color:white;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.row-border{
+    border: 1px solid black;
+}
+
+.row{
+    background-color: #8AA399;
+    margin: 15px 5px 0px 5px;
+}
+
+.video-size{
+    width:50%;
+}
+
+.col-title{
+    color:white;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight:100;
+    font-size:40px;
+}
+
+.col-desc{
+    color:pink;
 }

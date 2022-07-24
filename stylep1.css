@@ -7,6 +7,38 @@
     padding-left: 25px;
 }
 
+
+.overlay-text{ 
+    color:white;
+    position:absolute;
+    /*display:flex;
+    justify-content: center;
+    flex-direction: column;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:10;
+    /*top:30%;
+    margin:5%;*/
+    /*left:0;
+    width:50%;*/
+    text-align: center;
+  }
+
+#overlay-title{
+    font-size: 4rem;
+    font-family: 'Aleo', serif;
+    letter-spacing:6px;
+    font-weight:700;
+}
+
+#overlay-desc{
+    font-size:1rem;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .carousel-item {
     height: 300px;
     position: sticky;
@@ -17,18 +49,6 @@
     filter: brightness(50%)
 }
 
-.titlehp {
-    font-size: 4rem;
-    font-family: 'Aleo', serif;
-    font-weight:700;
-    color: white !important;
-}
-
-.carousel-smalltext{
-    padding-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-    
 .map-header{
     text-align: center;
     color:white;

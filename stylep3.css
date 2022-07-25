@@ -11,3 +11,15 @@ body {
     background-color: #EFD2CB;
 }
 
+.logoshort{
+
+    max-width: 25%;
+    max-height: auto;
+    align-self: center;
+}
+
+.logolong{
+    max-width: 40%;
+    max-height: auto;
+
+}

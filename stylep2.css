@@ -11,35 +11,194 @@ body {
     background-color: #EFD2CB;
 }
 
+
+/* start of introduction */
 .introduction{
     padding-top:30px;
-    padding-bottom: 8px;
     font-size:30px;
     text-align: center;
     color:white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
+}
+/* end of introduction */
+
+/* start of folder css*/
+.row-border{
+    border-bottom: 1px solid black;
+    max-width: auto;
 }
 
-.row{
-    background-color: #22B7A7;
+/* DO NOT use .row to change any colour,
+will alter both the folder tabs and the footer */
+/* .row-video{ 
+    background-color: #8AA399;
     margin: 15px 5px 0px 5px;
-}
+} */
 
 .video-size{
     width:50%;
 }
 
 .col-title{
-    color:white;
-    font-family: 'Aleo', serif;
+    margin-top:20px;
+    color: black;
+    font-family: 'Ibarra Real Nova', serif;
     font-weight:100;
     font-size:40px;
 }
 
 .col-desc{
-    color:pink;
-    font-family: 'Montserrat', sans-serif;
+    color:black;
 }
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --background: #22B7A7;
+}
+
+body.folder {
+    grid-column: -1;
+}
+p {
+    margin-bottom: 1rem;
+}
+.tab {
+    font-family: 'Aleo', serif;
+    text-transform: uppercase;
+    line-height: 0.8;
+    display: inline-block;	 
+    margin-left: -35px;
+    filter: drop-shadow(0px -3px 2px rgba(0,0,0,0.05));
+    border: none;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    margin-right: 4rem;
+    background: var(--background);
+    /* white-space: nowrap; */
+    cursor: pointer;
+}
+.tab:focus {
+    outline: none;
+}
+/* .tab:focus span {
+    border-bottom: 2px solid;
+    border-radius: 0;
+} */
+.tab:first-of-type {
+    margin-left: 30px;
+}
+.tab div {
+    background: var(--background);
+    padding: 6px 0;
+    position: relative;
+    z-index: 10;
+}
+.tab span {
+    display: inline-block;
+    border: 2px solid transparent;
+    padding: 6px 15px 6px;
+    border-radius: 5px;
+    z-index: 5;
+    position: relative;
+    font-size: 140%;
+    color: #fff;
+    min-width: 6rem;
+}
+.tab:before, .tab:after {
+    content:"";
+    height: 100%;
+    position: absolute;
+    background: var(--background);
+    border-radius: 8px 8px 0 0;
+    width: 30px;
+    top: 0;
+}
+.tab:before {
+    right: -16px;
+    transform: skew(25deg);
+    border-radius: 0 8px 0 0;
+}
+.tab:after {
+    transform: skew(-25deg);
+    left: -16px;
+    border-radius: 8px 0 0 0;
+}
+.tab.active {
+    z-index: 50;
+    position: relative;
+}
+.tab.active span {
+    background: white;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    color: black;
+}
+.content {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+}
+.content #tab-1 {
+    display: block;
+}
+.content:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    border-radius: inherit;
+}
+.content__inner {
+    font-family: 'Montserrat', sans-serif;
+    display: none;
+    background: var(--background);
+    border-radius: inherit;
+    padding: 1rem;
+    filter: drop-shadow(0px -2px 2px rgba(0,0,0,0.1));
+    z-index: 5;
+}
+.folder {
+    margin: 1rem auto;
+    padding: 0% 10% 5% 10%;
+    /* max-width: 50rem; */
+    width: 100%;
+    scrollbar-gutter: none;
+    -ms-overflow-style: none;
+}
+.folder ::-webkit-scrollbar {
+    background: transparent;
+    display: none;
+}
+.page {
+    padding: 1.5rem;
+    border-radius: 2px;
+    min-height: 20rem;
+    /* line-height: 250%; */
+    background-color: #f9f9f9;
+    filter: drop-shadow(0px 1px 3px rgba(0,0,0,0.15));
+    background-size: 8% 8%, 2px 2px;
+}
+.tabs {
+    padding: 1rem 0 0 0;
+    width: 100%;
+    margin: 0 0.5rem;
+    overflow-x: auto;
+    width: calc(99%);
+    white-space: nowrap;
+}
+@media (min-width: 50rem) {
+    .tabs {
+        margin: 0 2rem;
+        width: calc(96%);
+   }
+}
+
+/* end of folder css */
 
 /* Footer CSS */
 .new_footer_area {

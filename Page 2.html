@@ -37,56 +37,141 @@
   </nav>
   <!--End Nav Bar Bootstrap -->
 
-  <!-- Start of Introduction -->
-  <div class="introduction">
-    <p> Want to learn how to restyle clothes you already own?</p>
-    <p> Check out the resources below!</p>
-  </div>
+    <!-- Start of Introduction -->
+    <div class="introduction">
+      <p> want to learn how to restyle clothes you already own?</p>
+      <p> check out the resources below!</p>
+    </div>
+    
+    <!-- End of Introduction -->
   
-  <!-- End of Introduction -->
-
-  <!-- Start Video Bootstrap -->
-  <div class="container">
-    <div class="row mx-lg-n5 py-3 row-border">
-      <div class="col video-size">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vbpAWPaPm-E" allowfullscreen></iframe>
+    <!--Start of Folder-->
+    <div class="folder">
+      <div class="tabs">
+        <button class="tab active" onclick="openTab(event, 'tab-1')">
+          <div><span>Video Resources</span></div>
+        </button>
+        <button class="tab" onclick="openTab(event, 'tab-2')">
+          <div><span>Blog Resources</span></div>
+        </button>
+      </div>
+      <div class="content">
+        <div class="content__inner" id="tab-1">
+          <div class="page">
+            <!-- Start Video Bootstrap -->
+            <div class="container">
+              <div class="row py-3 row-border">
+                <div class="col video-size">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vbpAWPaPm-E" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col">
+                  <span class="col-title">
+                    A Beginner's Guide to Sustainable Fashion
+                  </span>
+                  <p class="col-desc">
+                    Check out what they have to say!
+                  </p>
+                </div>
+              </div>
+              <div class="row py-3 row-border">
+                <div class="col video-size">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TnxGHRlevlQ" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col">
+                  <span class="col-title">
+                    How to Repair Your Clothes
+                  </span>
+                  <p class="col-desc">
+                    filler text filler text filler text  filler text filler text filler text filler text filler text filler text
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text 
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text
+                  </p>
+                </div>
+              </div>
+              <div class="row py-3 row-border">
+                <div class="col video-size">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yeVU2Ff4ffc" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="col">
+                  <span class="col-title">
+                    TED talk by Amit Kalra
+                  </span>
+                  <p class="col-desc">
+                    filler text filler text filler text  filler text filler text filler text filler text filler text filler text
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text 
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Video Bootstrap -->
+          </div>
+        </div>
+        <div class="content__inner" id="tab-2">
+          <div class="page">
+            <!-- start of blog resources -->
+            <div class="container">
+              <div class="row py-3 row-border">
+                <div class="col">
+                  <img src="./Images/Page2/Beltempo2.jpg" />
+                </div>
+                <div class="col">
+                  <span class="col-title">
+                    Ms. Beltempo
+                  </span>
+                  <p class="col-desc">
+                    filler text filler text filler text  filler text filler text filler text filler text filler text filler text
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text 
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text
+                  </p>
+                  <button type="button" class="btn btn-light" href="https://msbeltempo.com/blogs/">resource</button>
+                </div>
+              </div>
+              <div class="row py-3 row-border">
+                <div class="col">
+                  <p> blob</p>
+                </div>
+                <div class="col">
+                  <span class="col-title">
+                    TED talk by Amit Kalra
+                  </span>
+                  <p class="col-desc">
+                    filler text filler text filler text  filler text filler text filler text filler text filler text filler text
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text 
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text
+                  </p>
+                </div>
+              </div>
+              <div class="row py-3 row-border">
+                <div class="col">
+                  <p> blob</p>
+                </div>
+                <div class="col">
+                  <span class="col-title">
+                    TED talk by Amit Kalra
+                  </span>
+                  <p class="col-desc">
+                    filler text filler text filler text  filler text filler text filler text filler text filler text filler text
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text 
+                    filler text filler text filler text filler text filler text filler text filler text filler text filler text
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end of blog resources  -->
+          </div>
         </div>
       </div>
-      <div class="col">
-        <span class="col-title">
-          A Beginner's Guide to Sustainable Fashion
-        </span>
-        <p class="col-desc">
-          Check out what they have to say!
-        </p>
-      </div>
     </div>
-    <div class="row mx-lg-n5 py-3 row-border">
-      <div class="col video-size">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TnxGHRlevlQ" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div class="col">
-        <span class="col-title">
-          How to sew your own clothes
-        </span>
-        <p class="col-desc">
-          Check out what they have to say!
-        </p>
-      </div>
-    </div>
-  </div>
-  <!-- End Video Bootstrap -->
-
-  <!-- Start Blog resources -->
-  <div>
-    <p>
-      Blog resources
-    </p> 
-  </div>
-  <!-- End Blog Resources -->
+    <!-- End of Folder -->
+  
+    <script src="java2.js"></script>
 
 <!--Footer Bootstrap-->
 <footer class="new_footer_area bg_color">
@@ -129,5 +214,6 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  <script src="./scriptp2.js"></script>
 </body>
 </html>

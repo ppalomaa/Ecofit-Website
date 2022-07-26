@@ -237,3 +237,28 @@ h1, h2, h3, h4, h5, h6 {
 
 /*************footer End*****************/
 
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.nav-item{
+    padding-left: 25px;
+}
+
+body {
+    background-color: #EFD2CB;
+}
+
+.logoshort{
+
+    max-width: 25%;
+    max-height: auto;
+    align-self: center;
+}
+
+.logolong{
+    max-width: 40%;
+    max-height: auto;
+
+}

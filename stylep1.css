@@ -61,12 +61,23 @@
 }
 
 @media (max-width: 576px) {
-
     .overlay-text{
         top:33%;
         left:50%
     } 
   }
+
+@media (min-width: 50rem) {
+    .tabs {
+        margin: 0 2rem;
+        width: calc(96%);
+   }
+}
+@media (min-width: 50rem) {
+ .carousel-item{
+    width: calc(100%);
+ }
+}
 
 body {background-color: #EFD2CB;
 }
@@ -201,7 +212,7 @@ p {
 }
 .folder {
     margin: 1rem auto;
-    padding: 0% 10% 5% 10%;
+    padding: 0% 10% 0% 10%;
     /* max-width: 50rem; */
     width: 100%;
     scrollbar-gutter: none;
@@ -327,6 +338,36 @@ input.variation:nth-of-type(1) + label {
 }
 /* end of Map css */
 
+
+/*Online Thrift Shops logo*/
+
+.onlineThrift{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+#depop, #vinted, #ebay, #asos {
+    height: 100px;
+    width: auto;
+    align-items: center;
+    background-color: white;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.Thrifty{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+/*End of online thrift stores*/
 
 /* Footer CSS */
 .new_footer_area {

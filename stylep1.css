@@ -8,6 +8,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.popover{
+    background-color: 
+    #EFD2CB;
+    /* #22B7A7; */
+    font-family: 'Montserrat', sans-serif;
+    /* color: white !important; */
+    border-color: white;
+    border-width: 0px;
+    font-size: 13px;
+}
+
 .overlay-text{ 
     color:white;
     position:absolute;

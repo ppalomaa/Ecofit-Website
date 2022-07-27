@@ -21,3 +21,9 @@ if (window.innerWidth > 800) {
 		scrollContainer.scrollLeft += evt.deltaY;
 	});
 }
+
+// Popover for hover fact
+$(function () {
+    $('[data-toggle="popover"]').popover({
+    })
+  })

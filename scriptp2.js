@@ -21,3 +21,8 @@ if (window.innerWidth > 800) {
 		scrollContainer.scrollLeft += evt.deltaY;
 	});
 }
+
+$(function () {
+    $('[data-toggle="popover"]').popover({
+    })
+  })

@@ -308,6 +308,7 @@ p {
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
     border-width: 1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .btn_get_two:hover {
     background: transparent;

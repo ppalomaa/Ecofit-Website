@@ -58,6 +58,14 @@
     transform: translate(-50%, -50%);
     z-index:10;
     text-align: center;
+}
+
+@media (max-width: 576px) {
+
+    .overlay-text{
+        top:33%;
+        left:50%
+    } 
   }
 
 body {background-color: #EFD2CB;
@@ -224,6 +232,11 @@ p {
         width: calc(96%);
    }
 }
+@media (min-width: 50rem) {
+ .carousel-item{
+    width: calc(100%);
+ }
+}
 
 /*Map CSS*/
 #solid:checked ~ .folder .tab:nth-of-type(1), #solid:checked ~ .folder .content__inner:nth-of-type(1) {
@@ -323,7 +336,7 @@ input.variation:nth-of-type(1) + label {
 .new_footer_top {
     padding: 30px 0px 270px;
     position: relative;
-      overflow-x: hidden;
+    overflow-x: hidden;
 }
 .new_footer_area .footer_bottom {
     padding-top: 5px;
@@ -346,6 +359,7 @@ input.variation:nth-of-type(1) + label {
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
     border-width: 1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .btn_get_two:hover {
     background: transparent;

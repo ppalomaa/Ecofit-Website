@@ -24,6 +24,11 @@ body {
 }
 
 /* Brand comparison logo adjustments (size + spacing) */
+
+.tablescroll{
+    overflow-x:scroll;
+}
+
 #brandcomparison{
     font-size: 2rem;
     text-align: center;
@@ -48,9 +53,40 @@ p{
     padding-bottom: 15px;
 }
 
+/* Table Styling */
+/* Table body class */
+.background {
+    background-color: white;
+    font-family:'Montserrat', sans-serif;
+    column-width: auto;     
+    /*<td width="(100/x)%"></td>*/
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+/* Table header class */
+ .tableheaders{
+    font-weight: 700;
+ }
+ /*Row 1 Padding class*/
+.row1{
+    margin: 1em;
+    margin-right: 5em;
+}
+/* Table logo classes */
+.logoshort{
+    max-width: 25%;
+    max-height: auto;
+    align-self: center;
+}
+.logolong{
+    max-width: 40%;
+    max-height: auto;
+}
+
 /* Additional Resources section*/
 .resources{
     background-color: #22B7A7;
+    padding-bottom: 20px;
 }
 
 #additionalresources{
@@ -65,6 +101,7 @@ p{
     padding-top: 0;
     margin: 0 80px 0px 80px;
     font-size: 1.2rem;
+
 }
 
 .blog-btn {
@@ -151,6 +188,7 @@ width:220px;
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
     border-width: 1px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .btn_get_two:hover {
     background: transparent;

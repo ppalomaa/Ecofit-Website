@@ -72,6 +72,15 @@ will alter both the folder tabs and the footer */
     text-align: justify;
 }
 
+@media screen and (max-width: 600px){
+    .col-title{
+        font-size: 25px;
+        text-align: justify;
+        font-weight: 300px;
+    }
+}
+
+
 /* end of video resources css */
 
 /* start of blog resources css */

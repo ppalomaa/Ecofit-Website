@@ -25,9 +25,7 @@ body {
 
 /* Brand comparison logo adjustments (size + spacing) */
 
-.tablescroll{
-    overflow-x:scroll;
-}
+
 
 #brandcomparison{
     font-size: 2rem;
@@ -58,7 +56,7 @@ p{
 .background {
     background-color: white;
     font-family:'Montserrat', sans-serif;
-    column-width: auto;     
+    column-width:auto;     
     /*<td width="(100/x)%"></td>*/
     margin-left: 7.5%;
     margin-right: 7.5%;
@@ -81,6 +79,10 @@ p{
 .logolong{
     max-width: 40%;
     max-height: auto;
+}
+
+.tablescroll{
+    overflow-x: scroll;
 }
 
 /* Additional Resources section*/
